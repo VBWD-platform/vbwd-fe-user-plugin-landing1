@@ -87,6 +87,7 @@
 import { ref, onMounted } from 'vue';
 import { useRouter } from 'vue-router';
 import { useI18n } from 'vue-i18n';
+import { formatMoney } from 'vbwd-view-component';
 
 export interface TarifPlan {
   id: string;
@@ -151,10 +152,8 @@ function choosePlan(plan: TarifPlan) {
 }
 
 function formatPrice(price: number, currency?: string): string {
-  return new Intl.NumberFormat('en-US', {
-    style: 'currency',
-    currency: currency || 'EUR',
-  }).format(price);
+  // Resolve: the value's own currency, else the operating currency (S99).
+  return formatMoney(price, { currency });
 }
 
 function formatBillingPeriod(period?: string): string {
