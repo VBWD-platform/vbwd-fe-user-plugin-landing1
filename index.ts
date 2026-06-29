@@ -10,7 +10,7 @@ import zh from './locales/zh.json';
 
 export const landing1Plugin: IPlugin = {
   name: 'landing1',
-  version: '26.6',
+  version: '26.6.1',
   description: 'Public landing page with tariff plan selection',
   _active: false,
 
