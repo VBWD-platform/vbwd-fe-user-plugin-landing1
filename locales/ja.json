@@ -3,6 +3,7 @@
     "title": "プランを選択",
     "subtitle": "最適なプランを選択してください",
     "noPlans": "現在、利用可能なプランはありません。",
-    "choosePlan": "プランを選択"
+    "choosePlan": "プランを選択",
+    "popular": "人気"
   }
 }

@@ -3,6 +3,7 @@
     "title": "Wählen Sie Ihren Tarif",
     "subtitle": "Wählen Sie den Tarif, der am besten zu Ihnen passt",
     "noPlans": "Derzeit sind keine Tarife verfügbar.",
-    "choosePlan": "Tarif wählen"
+    "choosePlan": "Tarif wählen",
+    "popular": "Beliebt"
   }
 }
